@@ -1,13 +1,17 @@
 version: '3.4'
 
 services:
-  shopping-client:
-    container_name: shopping-client-apii
+  shopping.api:
+    image: ${DOCKER_REGISTRY-}shoppingapi
+    build:
+      context: .
+      dockerfile: Shopping.API/Dockerfile
+
+  shopping.client:
+    image: ${DOCKER_REGISTRY-}shoppingclient
     build:
       context: .
       dockerfile: Shopping.Client/Dockerfile
-    ports:
-      - '5005:80'
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_URLS=http://+:80
+
+  shopping.db:
+    image: mongo
