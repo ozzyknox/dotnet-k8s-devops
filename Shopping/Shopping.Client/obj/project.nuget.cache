@@ -1,11 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "yXGZZ3NafBhbe8YDxWE7Dx11zqz3CViGNrAnmNkLZVvN5FNsZD4bkcAaTsE8LouFoPHldXTKcB0PaJfbAPXvkQ==",
+  "dgSpecHash": "S+BL3LLYiRC7PWNSeas3uC0vl9C3w35IIg/elF5ak1t7Bd2r3H6DuAXxXYvlkOebrwIGQ57fn0RgTg1P17tA5w==",
   "success": true,
   "projectFilePath": "C:\\Users\\ozzyk\\source\\repos\\dotnet-k8s-devops\\Shopping\\Shopping.Client\\Shopping.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ozzyk\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
-    "C:\\Users\\ozzyk\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+    "C:\\Users\\ozzyk\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\ozzyk\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.14\\microsoft.windowsdesktop.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\ozzyk\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.14\\microsoft.netcore.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\ozzyk\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.14\\microsoft.aspnetcore.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\ozzyk\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.14\\microsoft.netcore.app.host.win-x64.6.0.14.nupkg.sha512"
   ],
   "logs": []
 }
