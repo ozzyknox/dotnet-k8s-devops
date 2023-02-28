@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: '1184adf4-5fe2-4f51-aac9-e2c3cb24ed94'
   imageRepository: 'ozzyknoxdotnetksdevops'
   containerRegistry: 'shoppingacrozzy.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/Shopping/Dockerfile'
+  dockerfilePath: '$(Build.SourcesDirectory)/Shopping/Shopping.API/Dockerfile'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
