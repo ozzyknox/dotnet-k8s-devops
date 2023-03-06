@@ -1,6 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: mongo-configmap
-data:
-  connection_string: mongodb://username:password@10.152.183.56

@@ -1,1 +1,0 @@
-# dotnet-k8s-devops
