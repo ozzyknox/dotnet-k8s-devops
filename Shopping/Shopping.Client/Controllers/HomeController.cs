@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using Shopping.Client.Models;
+using Shopping.Client.Models; 
 using System.Diagnostics;
 
 namespace Shopping.Client.Controllers
