@@ -78,6 +78,7 @@ v1
 --
 Create AKS cluster with attaching ACR
 az aks create --resource-group myResourceGroup --name myAKSCluster --node-count 1 --generate-ssh-keys --attach-acr shoppingacr
+az aks create --resource-group ozzyResourceGroup --name myAKSCluster4 --node-count 1 --generate-ssh-keys --attach-acr shoppingacrozzy --kubernetes-version 1.23.15
 
 --
 Install the Kubernetes CLI
@@ -104,3 +105,8 @@ kubectl apply -f .\aks\
 Clean All AKS and Azure Resources
 
 az group delete --name myResourceGroup --yes --no-wait
+
+--
+Create ACR secret
+
+kubectl create secret docker-registry acr-secret --docker-server=shoppingacrozzy.azurecr.io --docker-username=shoppingacrozzy --docker-password=tYkwWWPik4/5GHOiibFJ+t0ugIy7llR7H3Z0AxcGaw+ACRA1C1Ez --docker-email=ozzyknox@gmail.com
