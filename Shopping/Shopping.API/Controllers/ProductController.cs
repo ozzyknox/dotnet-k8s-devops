@@ -15,7 +15,7 @@ namespace Shopping.API.Controllers
         public ProductController(ProductContext context, ILogger<ProductController> logger)
         {
             _context = context ?? throw new ArgumentNullException(nameof(context));
-            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
+            _logger = logger ?? throw new ArgumentNullException(nameof(logger)); 
         }
 
         [HttpGet]
