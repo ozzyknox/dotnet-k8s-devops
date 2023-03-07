@@ -24,7 +24,7 @@ namespace Shopping.API.Controllers
             return await _context
                 .Products
                 .Find(p => true)
-                .ToListAsync();
+                .ToListAsync(); 
         }
     }
 }
